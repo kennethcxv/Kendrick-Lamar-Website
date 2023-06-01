@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendrick Lamar | Tour</title>
+    <link rel="stylesheet" href="styles.css">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+<style>
+#hi{
+
+margin-right:auto;
+margin-left:auto;
+}
+h1{
+font-size:30px;
+}
+.logo a{
+color: white;
+font-size: 1.5rem;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+}
+        header {
+            text-align: center;
+	width:1850px;
+	height:100px;
+	text-align:center;
+        } 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+	background-color:#464646;
+
+        }
+       .header {
+            text-align: center;
+	width:1850px;
+	height:100px;
+	padding-left:500px;
+        } 
+h1{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.calendar-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.calendar {
+    border-collapse: collapse;
+    text-align: center;
+    width: 30%;
+margin-right:10px;
+}
+
+.subscribe {
+  background-color: #464646;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid;
+  margin: 20px;
+}
+
+.subscribe h2 {
+  margin: 0 0 20px;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+
+}
+
+.subscribe input[type="email"],
+.subscribe input[type="password"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+}
+
+.subscribe input{
+  width: 98%;
+}
+
+.subscribe input {
+  width: 98%;
+}
+
+.subscribe input[type="submit"] {
+  background-color: orange;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 1px;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+margin-left:15px;
+}
+
+.show-password {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.show-password i {
+  font-size: 16px;
+}
+.footer{
+background-color: #464646;
+color: #fff;
+padding: 30px;
+text-align: center;
+}
+
+.footer ul{
+display: flex;
+justify-content: center;
+margin-bottom: 1rem;
+}
+
+.footer ul li{
+list-style-type: none;
+margin-left: 1rem;
+}
+
+.footer ul li a{
+text-decoration: none;
+color: #fff;
+}
+
+.calendar caption {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.calendar th, .calendar td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 2rem; /* Increase the font size */
+	display:inine-block;
+	background-color:#464646;
+
+}
+
+.calendar thead th {
+  
+    font-size: 2rem; /* Increase the font size for day names */'
+margin-right:10px;
+
+}
+
+
+.logo{
+display:inline-block;
+
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Add your calendar styles here */
+
+.tour-info {
+    margin-top: 2rem;
+
+}
+
+.subscription-form {
+    margin-top: 2rem;
+}
+
+.subscription-form form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+}.calendar tbody tr:nth-child(odd) td:nth-child(1),
+.calendar tbody tr:nth-child(even) td:nth-child(7) {
+    
+}
+
+.calendar tbody tr:nth-child(odd) td:nth-child(7),
+.calendar tbody tr:nth-child(even) td:nth-child(1) {
+    
+}
+
+
+
+
+.Month1{
+	font-size:30px;
+	border:1px;
+
+}
+        button {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+        }
+
+button:hover{
+  background-color: orange;
+}
+.tour-dates table tr {
+    background-color: #464646;
+    color: white;
+}
+a{
+color:orange;
+text-decoration: none;
+}
+a:hover{
+color:white;
+}
+.tour-dates table td {
+    padding: 10px;
+    border: 1px solid white;
+
+}
+
+.social-media {
+  background-color:#464646;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media h2 {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media a {
+  display: inline-block;
+  background-color: orange;
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.containerrr{
+float:center;
+align:center;
+}
+ input.subscribe-button:hover{
+   background-color:orange;
+	cursor:pointerl
+}
+.fas fa-ticket-alt{
+color:white;
+dont-color:white;
+}
+a:hover{
+color:orange;
+}
+.containerrr{
+text-align:center;
+}
+
+#foot:hover{
+color:orange;
+}
+#datess a:hover{
+color:white;
+}
+#datesss a:hover{
+color:orange;
+}
+</style>
+</head>
+<body>
+<header><br /><br />
+        <div class="container">
+            <div class="logo"><a href="Home.html">Kendrick Lamar<a/></div>
+	<nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Bio.html">Bio</a></li>
+                    <li><a href="News.html">News</a></li>
+                    <li><a href="Music.html">Music</a></li>
+                    <li><a href="Video.html">Video</a></li>
+                    <li><a href="Tour.html">Tour</a></li>
+                    <li><a href="Events.html">Events</a></li><br /><br />
+                    <li><a href="store.html">Store</a></li><br /><br />
+                </ul>
+            </nav>
+
+</div>
+</header>
+<main>
+
+<h1>Upcoming Tour Dates</h1>
+</span>
+ <br />
+        <section class="calendar-container">
+            <section class="calendar-container">
+    <br />
+    <table class="calendar">
+        <caption></caption>
+        <thead>
+	<td colspan="7" id="datess"><div class="Month1">June</div></td>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+        </thead>
+        <tbody>
+		<tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr id="datess">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td id="hello" style="color:orange" > <a href="https://governorsball.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=governorsball" target="_blank"><i class="fas fa-ticket-alt" style="color:white"></i>9</a></td>
+            <td style="color:orange" > <a href="https://governorsball.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=governorsball" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>10</a></td>
+        </tr>
+        <tr id="datess">
+            <td style="color:orange";> <a href="https://governorsball.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=governorsball" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td style="color:orange"> <a href="https://bonnaroo.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=bonnaroo" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>15</a></td>
+            <td style="color:orange"><a href="https://bonnaroo.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=bonnaroo" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>16</a></td>
+	<td style="color:orange"><a href="https://bonnaroo.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=bonnaroo" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>17</a></td>
+        </tr>
+        <tr id="datess">
+            <td style="color:orange"><a href="https://bonnaroo.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=bonnaroo" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>18</a></td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td></td>
+        </tr>
+    </tbody>
+    </table>
+
+    <!-- Calendar for Month 2 -->
+    <table class="calendar">
+        <caption></caption>
+        <thead>
+<td colspan="7"><div class="Month1">July</div></td>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+        <tr id="datess">
+            <td>16</td>
+            <td style="color:orange"><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-kendrick-lamar-17-luglio-2023-arena-di-verona-verona-5710.html" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>17</a></td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+    </table>
+
+    <!-- Calendar for Month 3 -->
+    <table class="calendar">
+        <caption></caption>
+        <thead>
+<td colspan="7"><div class="Month1">August</div></td>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+        </thead>
+        <tbody>
+                  <tr id="datess"> 
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td style="color:orange;"><a href="https://lollapalooza.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=lollapalooza" target="_blank"><i class="fas fa-ticket-alt" style="color:white"></i><br />3</a></td>
+            <td style="color:orange"><a href="https://lollapalooza.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=lollapalooza" target="_blank"><i class="fas fa-ticket-alt" style="color:white"></i>4</a></td>
+            <td style="color:orange"><a href="https://lollapalooza.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=lollapalooza" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>5</a></td>
+        </tr>
+        <tr id="datess"> 
+            <td style="color:orange"><a href="https://lollapalooza.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=lollapalooza" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i><br />6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td style="color:orange"><a href="https://outsidelands.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=outsidelands" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>11</a></td>
+            <td style="color:orange"><a href="https://outsidelands.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=outsidelands" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>12</a></td>
+        </tr>
+        <tr id="datess">
+            <td style="color:orange"><a href="https://outsidelands.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=outsidelands" target="_blank"><i class="fas fa-ticket-alt"style="color:white"></i>13</a></td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+    </table>
+</section>
+
+        </section>
+        
+        
+<br /><br />
+
+<hr />
+<br />
+<br />
+<section class="tour-dates">
+<section class="containerrr">
+<span style="font-size:23pt; font-weight:bold; color:#ff8c00;text-align:center">Upcoming Shows</span><br /><br />
+
+    <table id="hi">
+        <tr>
+            <td>JUN 9-11, Fri-Sun</td>
+            <td><a href="https://governorsball.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=governorsball" target="_blank"><i class="fas fa-ticket-alt"></i> See Tickets</a></td>
+        </tr>
+        <tr>
+            <td>JUN 15-18, Thu-Sun</td>
+            <td><a href="https://bonnaroo.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=bonnaroo" target="_blank"><i class="fas fa-ticket-alt"></i> See Tickets</a></td>
+        </tr>
+        <tr>
+            <td>JUL 17, Mon</td>
+            <td><a href="https://shop.ticketmaster.it/biglietti/acquista-biglietti-kendrick-lamar-17-luglio-2023-arena-di-verona-verona-5710.html" target="_blank"><i class="fas fa-ticket-alt"></i> See Tickets</a></td>
+        </tr>
+        <tr>
+            <td>AUG 3-6, Thu-Sun</td>
+            <td><a href="https://lollapalooza.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=lollapalooza" target="_blank"><i class="fas fa-ticket-alt"></i> See Tickets</a></td>
+        </tr>
+        <tr>
+            <td>AUG 11-13, Fri-Sun</td>
+            <td><a href="https://outsidelands.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=outsidelands" target="_blank"><i class="fas fa-ticket-alt"></i> See Tickets</a></td>
+        </tr>
+        <tr>
+            <td>SEP 22-24, Fri-Sun</td>
+            <td><a href="https://lifeisbeautiful.frontgatetickets.com/?utm_source=ticketmaster&utm_medium=tm_website&utm_campaign=websiteshell&utm_term=comp&utm_content=lifeisbeautiful" target="_blank"><i class="fas fa-ticket-alt"></i> See Tickets</a></td>
+        </tr>
+    </table>
+</section><br /><br />
+
+
+<hr />
+<br /><br /><br />
+
+<h1>Subscribe</h1>
+<section class="subscribe">
+
+<div class="form-group">
+<label for="email"><span style="text-align:center">Email:</span></label>
+<input type="email" id="email" name="email" placeholder="Enter your email" required>
+</div>
+<div class="form-group">
+<label for="password">Password:</label>
+<div class="password-container">
+<input type="password" id="password" name="password" placeholder="Enter your password" required>
+<span class="show-password"></span>
+</div>
+</div>
+<a href="https://www.youtube.com/user/KendrickLamarVEVO" target="_blank"s><input type="submit" value="Subscribe" class="subscribe-button"></a>
+</section>
+
+    </main>
+    
+<footer>
+<section class="social-media">
+  <h2>Social Media</h2>
+  <ul>
+    <li><a href="https://www.facebook.com/kendricklamar" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="https://www.instagram.com/kendricklamar/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="https://twitter.com/kendricklamar" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.youtube.com/user/KendrickLamarVEVO" target="_blank"><i class="fab fa-youtube"></i></a></li>
+  </ul>
+
+</section>
+
+
+<section class="footer">
+<p>&copy; 2023 Kendrick Lamar. All rights reserved.</p>
+
+<a href="Privacy.html"target="_blank">Privacy Policy |</a></li>
+<a href="Terms.html"target="_blank">Terms of Use |</a></li>
+<a href="DontSell.html"target="_blank" target="_blank">Do not Sell My Personal Information</a></li>
+
+</section>
+</footer>
+</body>
+</html>
+</body>
+</html>
